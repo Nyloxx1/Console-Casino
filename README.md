@@ -10,6 +10,13 @@ This is an entertainment project only. It does not use real money, process payme
 
 ## Setup And Run
 
+### Install
+- Install Casino.7z
+- extract Casino.7z
+- run launch_launch casino
+- have fun
+- If you get any errors refer to below
+
 ### Requirements
 
 - Windows with Command Prompt or PowerShell
