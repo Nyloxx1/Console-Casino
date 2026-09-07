@@ -13,7 +13,7 @@ This is an entertainment project only. It does not use real money, process payme
 ### Install
 - Install Casino.7z
 - extract Casino.7z
-- run launch_launch casino
+- run launch_casino
 - have fun
 - If you get any errors refer to below
 
