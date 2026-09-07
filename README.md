@@ -1,6 +1,3 @@
-# Console-Casino
-It is a casino in your command prompt
-
 # Gambling Arena Console
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
@@ -35,25 +32,12 @@ python casino_console.py
 
 You can also launch it with `launch_casino.cmd`.
 
-On first launch, choose a profile and create its password. The casino creates the required save files automatically.
+On first launch, choose a profile and create its password and personal secret code. The secret code is used in the main menu to access chip and power-up changes. The casino creates the required save files automatically.
 
 ### Fresh Install
 
 This public copy intentionally contains no player profiles, passwords, saves, logs, or personal data. Running it creates a new `saves/` directory locally.
 
-### Build A Windows Installer
-
-The repository includes `build_installer.ps1` and `GamblingArena.iss`.
-
-1. Install Python 3 and Inno Setup 6.
-2. Open PowerShell in this folder.
-3. Run:
-
-```powershell
-.\build_installer.ps1
-```
-
-The script installs PyInstaller for the current user if needed, creates `dist\GamblingArena\GamblingArena.exe`, and then creates `output\GamblingArenaSetup.exe` when Inno Setup is installed. The installer creates a fresh save folder on first launch.
 
 ### Set Up Local Friends
 
@@ -170,4 +154,3 @@ Profile changes made through Admin are snapshotted under `profile_backups` befor
 ## Disclaimer
 
 This is a play-money casino simulation for entertainment only. It does not use real money or provide gambling services.
-
